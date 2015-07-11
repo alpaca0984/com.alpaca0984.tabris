@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.tabrisjs.getting.started" version="1.0.0">
+<widget
+  id="com.tabrisjs.getting.started"
+  version="1.0.0"
+  xmlns:gap="http://phonegap.com/ns/1.0"
+  xmlns="http://www.w3.org/ns/widgets"
+  xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>HelloWorld</name>
   <description>
    A sample Tabris.js application.
@@ -7,4 +12,6 @@
   <author email="dev@tabrisjs.com" href="https://tabrisjs.com">
    Tabris.js Team
   </author>
+  <gap:plugin name="org.apache.cordova.camera" />
+  <gap:plugin name="org.apache.cordova.dialogs" />
 </widget>
