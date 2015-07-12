@@ -17,7 +17,8 @@ var page = new PluginPage("Camera", "org.apache.cordova.camera", function(parent
   });
 
   var imageView = tabris.create("ImageView", {
-    layoutData: {top: [button, 20], left: 20, right: 20, bottom: 20}
+    // layoutData: {top: [button, 20], left: 20, right: 20, bottom: 20}
+    scaleMode: "stretch"
   }).appendTo(parent);
 });
 
