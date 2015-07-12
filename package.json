@@ -1,5 +1,5 @@
 {
-  "name": "tabris-getting-started",
+  "name": "com.alpaca0984.tabris",
   "description": "Tabris.js - Hello, World!",
   "main": "/cordova/app.js",
   "dependencies": {
