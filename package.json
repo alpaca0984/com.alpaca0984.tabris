@@ -1,7 +1,7 @@
 {
   "name": "tabris-getting-started",
   "description": "Tabris.js - Hello, World!",
-  "main": "hello.js",
+  "main": "/cordova/app.js",
   "dependencies": {
     "tabris": "1.0.0"
   }
