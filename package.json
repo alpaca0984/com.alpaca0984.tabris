@@ -1,7 +1,7 @@
 {
   "name": "com.alpaca0984.tabris",
   "description": "Tabris.js - Hello, World!",
-  "main": "/cordova/app.js",
+  "main": "hello.js",
   "dependencies": {
     "tabris": "1.0.0",
     "promise": "^6.1.0",
