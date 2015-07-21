@@ -22,4 +22,5 @@ var page = new PluginPage("Camera", "org.apache.cordova.camera", function(parent
   }).appendTo(parent);
 });
 
-module.exports = page;
+var page = page.create();
+page.open();

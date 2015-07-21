@@ -2,7 +2,6 @@ var page = tabris.create("Page", {
   title: "Create Memo",
   topLevel: true
 });
-console.log(window.Connection);
 
 var button = tabris.create("Button", {
   text: "create TextInput",
